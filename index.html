@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mae ann | CakeShop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <nav>
+    <span class="logo">MAEANN CAKESHOP</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <p class="label">Welcome</p>
+    <h1>Franz Garcia</h1>
+    <p class="sub">Fresh baked Cakes made with love.</p>
+    <button id="hire-btn">Order now</button>
+    <p id="hire-output"></p>
+  </section>
+
+  <section id="services">
+    <h2>What We Offer</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Fresh Chocomoist</h3>
+        <p>Baked Fresh cakes</p>
+      </div>
+      <div class="card">
+        <h3>Yema Cake</h3>
+        <p>Creamy yema cake</p>
+      </div>
+      <div class="card">
+        <h3>Fresh brownies</h3>
+        <p>Yummy brownies</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" placeholder="Say hello..." required></textarea>
+
+      <button type="submit">Send Message</button>
+      <p id="form-feedback"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p> one and only maeann</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
